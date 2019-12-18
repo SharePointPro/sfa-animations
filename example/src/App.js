@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'sppro-sfa-animations'
+import SfaAnimation from 'sppro-sfa-animations'
 
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
+      <div style={{width: '150px'}}>
+        <SfaAnimation alertType='error' />
       </div>
     )
   }
