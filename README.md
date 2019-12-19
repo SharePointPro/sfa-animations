@@ -2,6 +2,8 @@
 
 > Sweet Alert Animations
 
+Animated Elements extracted from Sweet Alert (https://sweetalert.js.org/)
+
 [![NPM](https://img.shields.io/npm/v/sppro-sfa-animations.svg)](https://www.npmjs.com/package/sppro-sfa-animations) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
@@ -10,20 +12,22 @@
 npm install --save sppro-sfa-animations
 ```
 
+## Live Demo
+
+https://sharepointpro.github.io/sppro-sfa-animations/
+
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+<SfaAnimation alertType='error' />
+```
 
-import MyComponent from 'sppro-sfa-animations'
+```jsx
+<SfaAnimation alertType='warning' />
+```
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+```jsx
+<SfaAnimation alertType='success' />
 ```
 
 ## License
