@@ -2,7 +2,7 @@
 
 > Sweet Alert Animations
 
-Animated Elements extracted from Sweet Alert (https://sweetalert.js.org/)
+Animated elements extracted from Sweet Alert (https://sweetalert.js.org/) and ported to React Components
 
 [![NPM](https://img.shields.io/npm/v/sppro-sfa-animations.svg)](https://www.npmjs.com/package/sppro-sfa-animations) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
