@@ -17,6 +17,9 @@ npm install --save sppro-sfa-animations
 https://sharepointpro.github.io/sppro-sfa-animations/
 
 ## Usage
+```jsx
+import SfaAnimation from "sppro-sfa-animations";
+````
 
 ```jsx
 <SfaAnimation alertType='error' />
